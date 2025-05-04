@@ -1,0 +1,15 @@
+---
+layout: post
+title:  "RAVE: Randomized Noise Shuffling for Fast and Consistent Video Editing with Diffusion Models"
+date:   2024-06-12 23:59:59 +00:00
+image: /images/rave_cvpr.png
+categories: research
+author: "Bariscan Kurtkaya"
+authors: "Ozgur Kara*, <strong>Bariscan Kurtkaya*</strong>, Hidir Yesiltepe, James M. Rehg, Pinar Yanardag"
+venue: "CVPR Highlight"
+arxiv: https://arxiv.org/pdf/2312.04524
+website: https://rave-video.github.io/
+code: https://github.com/RehgLab/RAVE
+youtube: https://www.youtube.com/watch?v=G2UsdwnJxRM&ab_channel=Voxel51
+---
+We propose a latent grid and shuffling framework that enables text-based zero-shot video editing by leveraging pretrained text-to-image diffusion models.
