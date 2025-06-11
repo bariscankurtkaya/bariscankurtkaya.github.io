@@ -8,5 +8,7 @@ author: "Bariscan Kurtkaya"
 authors: "<strong>Bariscan Kurtkaya*</strong>, Fatih Dinc*, Mert Yuksekgonul, Marta Blanco-Pozo, Ege Cirakman, Mark Schnitzer, Yucel Yemez, Hidenori Tanaka, Peng Yuan, Nina Miolane"
 venue: "ICML"
 arxiv: https://arxiv.org/pdf/2502.17433
+website: https://bariscankurtkaya.github.io/dynamical_phases/
+code: https://github.com/fatihdinc/dynamical-phases-stm
 ---
 We investigate the scaling relationship between the learning rate, length of delay interval and the dynamical phases underlying short-term memory mechanisms in recurrent neural networks (RNNs), focusing on structures such as limit cycles and slow-point manifolds.
