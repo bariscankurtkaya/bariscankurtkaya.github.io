@@ -1,170 +1,88 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html lang="en">
-
-<link rel="icon" href="/images/favicon.png" type="image/png">
-
 <head>
-  <!-- Google tag (gtag.js) -->
-  <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-E00L9PT3V9"></script> -->
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'G-E00L9PT3V9');
-  </script>
-  <title>{{ site.name }}</title>
-
-  <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-
-  <meta name="author" content="{{ site.name }}" />
+  <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
-  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-  <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
-
+  <title>Bariscan (Baris) Kurtkaya</title>
+  <meta name="author" content="Bariscan Kurtkaya">
+  <link rel="icon" href="/images/favicon.png" type="image/png">
+  <link rel="stylesheet" href="{{ site.baseurl }}/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&family=IBM+Plex+Sans:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
 </head>
-
 <body>
-  <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-    <tr style="padding:0px">
-      <td style="padding:0px">
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-          <tr style="padding:0px">
-            <td style="padding:2.5%;width:60%;vertical-align:middle">
-              <h1>
-                Bariscan (Baris) Kurtkaya
-              </h1>
-              <p>
-                I am a prospective PhD student in Electrical and Computer Engineering at the 
-                <a href="https://www.ece.ucsb.edu/">University of California, Santa Barbara</a>, 
-                where I will be advised by 
-                <a href="https://www.ninamiolane.com/">Prof. Nina Miolane</a> as a member of the 
-                <a href="https://gi.ece.ucsb.edu/">Geometric Intelligence Lab</a>.
-              </p>
-              
-              <p>
-                I am currently a 
-                <a href="https://ai.ku.edu.tr/">KUIS AI Fellow</a> and a second-year MSc student in 
-                Computer Science and Engineering at 
-                <a href="https://www.ku.edu.tr/en/">Koç University</a>, where I am fortunate to be advised by 
-                <a href="https://gsse.ku.edu.tr/en/programs/computer-science-and-engineering/faculty/?detail=true&id=yyemez">
-                  Prof. Yücel Yemez</a>. Alongside my graduate studies, I have also worked as a visiting scholar at 
-                <a href="https://www.stanford.edu/">Stanford University</a>, contributing to research in computational 
-                neuroscience and memory dynamics within the 
-                <a href="https://pyramidal.stanford.edu/">Schnitzer Group</a> under the advisement of 
-                <a href="https://profiles.stanford.edu/mark-schnitzer">Prof. Mark Schnitzer</a> and 
-                <a href="https://sites.google.com/view/fatihdinc/home">Dr. Fatih Dinç</a>.
-              </p>
-              
-              <p>
-                My research focuses on understanding the geometry and dynamics of memory in both 
-                biological and artificial systems. I am particularly interested in the intersection 
-                of machine learning, neuroscience, and dynamical systems theory.
-              </p>
-              
-              <p>
-                Throughout my academic journey, I've had the opportunity to collaborate with researchers 
-                at several institutions, including Stanford University, Harvard University, UCSB, 
-                Virginia Tech, Washington University in St. Louis, and the University of Milan. I feel 
-                incredibly fortunate to have met and worked with such brilliant, kind, and passionate 
-                people from around the world.
-              </p>
-              
-              <p>
-                Beyond academics, I am deeply passionate about long-distance running, cinematography, 
-                photography, poetry, and music of all kinds. I'm currently learning to play the piano and 
-                always looking for new ways to express myself creatively.
-              </p>
-              <p style="text-align:center">
-                <a target="_blank" href="mailto:bariscankurtkaya@gmail.com"> Email</a> &nbsp;/&nbsp;
-                <a href="https://scholar.google.com/citations?user=g6JC_moAAAAJ&hl=en">Google Scholar</a> &nbsp;/&nbsp;
-                <a href="/pdfs/BariscanKurtkaya_Academic_CV.pdf">CV</a> &nbsp;/&nbsp;
-                <a href="https://github.com/bariscankurtkaya">GitHub</a> &nbsp;/&nbsp;
-                <a href="https://www.linkedin.com/in/bariscankurtkaya"> LinkedIn </a>
-              </p>
-            </td>
-            <td style="padding:2.5%;width:40%;max-width:40%">
-              <img style="width:100%;max-width:100%" alt="profile photo" src="images/profile.jpg">
-            </td>
-          </tr>
-        </table>
+  <div class="page-wrapper">
+    <div class="page-layout">
 
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-          <tr>
-            <td style="padding:2.5%;width:100%;vertical-align:middle">
-              <h2>Selected Publications</h2>
-              <!-- <p>
-                I'm interested in computer vision, machine learning, optimization, graphics and robotics.
-              </p> -->
-            </td>
-          </tr>
-        </table>
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+      <aside class="left-rail">
+        <img class="profile-photo" src="{{ site.baseurl }}/images/profile.jpg" alt="Bariscan Kurtkaya">
+        <nav class="link-list">
+          <a href="mailto:bariscankurtkaya@gmail.com">Email</a>
+          <a href="https://scholar.google.com/citations?user=g6JC_moAAAAJ&hl=en">Google Scholar</a>
+          <a href="{{ site.baseurl }}/pdfs/BariscanKurtkaya_Academic_CV.pdf">CV</a>
+          <a href="https://github.com/bariscankurtkaya">GitHub</a>
+          <a href="https://www.linkedin.com/in/bariscankurtkaya">LinkedIn</a>
+        </nav>
+      </aside>
+
+      <main class="right-col">
+
+        <header class="site-header">
+          <h1 class="name">Bariscan (Baris) Kurtkaya</h1>
+          <p class="role">PhD student, Electrical and Computer Engineering, UC Santa Barbara</p>
+
+          <div class="bio">
+            <p>I am a <strong>second-year PhD student</strong> in Electrical and Computer Engineering at the <a href="https://www.ece.ucsb.edu/">University of California, Santa Barbara</a>, where I am advised by <a href="https://www.ninamiolane.com/">Prof. Nina Miolane</a> as a member of the <a href="https://gi.ece.ucsb.edu/">Geometric Intelligence Lab</a>, supported by a <strong>PhD Fellowship from the UCSB ECE Department</strong>.</p>
+
+            <p>My research sits at the intersection of <strong>mechanistic interpretability, AI safety, and computational neuroscience</strong>. I investigate how neural networks use <strong>low-dimensional manifold geometry and attractor dynamics</strong> in latent space to implement <strong>core cognitive capabilities like memorization, generalization, and comparison</strong>, and how this geometric structure helps us interpret what a model <strong>"thinks"</strong> while performing a given <strong>"behavior"</strong>. My work spans two levels: I build tools to understand the low-level computational building blocks behind memory and generalization, and I study how these mechanisms give rise to high-level emergent behaviors, including, most recently, how <strong>loyalty between AI agents can induce dishonesty in multi-agent systems</strong>.</p>
+
+            <p>Before UCSB, I completed my <strong>MSc in Computer Science and Engineering</strong> at <a href="https://www.ku.edu.tr/en/">Koç University</a> as a <a href="https://ai.ku.edu.tr/">KUIS AI Fellow</a>, advised by <a href="https://gsse.ku.edu.tr/en/programs/computer-science-and-engineering/faculty/?detail=true&id=yyemez">Prof. Yücel Yemez</a>, and worked as a <strong>visiting graduate researcher at Stanford University's</strong> <a href="https://pyramidal.stanford.edu/">Schnitzer Group</a>, studying the geometry and dynamics of short-term memory in recurrent neural networks under <a href="https://profiles.stanford.edu/mark-schnitzer">Prof. Mark Schnitzer</a> and <a href="https://sites.google.com/view/fatihdinc/home">Dr. Fatih Dinç</a>. I also spent time at <strong>Virginia Tech's GemLab</strong> working with Prof. Pinar Yanardag on generative video models, and earlier did undergraduate research at <strong>Washington University in St. Louis's McDonnell Center</strong>. Throughout this journey I've had the chance to collaborate with researchers across Stanford, Harvard, UCSB, Virginia Tech, Washington University in St. Louis, and the University of Milan, and I feel fortunate to have worked alongside such thoughtful and generous people.</p>
+
+            <p>Beyond the lab, I'm an avid cyclist and I've recently gotten into triathlon, spending a lot of my free time on the road bike. I'm also a proud supporter of GCN (Global Cycling Network). I have a competitive athletic background too: I played volleyball at a semi-professional level in Turkey, and before that worked as a pacer for a running club in Istanbul.</p>
+          </div>
+        </header>
+
+        <div class="section-divider">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 14" preserveAspectRatio="none" aria-hidden="true">
+            <path d="M0,7 Q240,1 480,7" stroke="#B79492" stroke-opacity="0.6" stroke-width="1" fill="none"/>
+          </svg>
+        </div>
+
+        <section class="section">
+          <h2 class="section-label">Selected work</h2>
 
           {% for post in site.posts %}
-          {% for cat in post.categories %}
-          {% if cat == 'research' %}
-          <tr>
-            <td style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px">
-              <img src="/tn{{post.image}}" alt="project image" style="width:auto; height:auto; max-width:100%;" />
-            </td>
-            <td style="padding:2.5%;width:75%;vertical-align:middle">
-              <h3>{{post.title}}</h3>
-              <br>
-              {{post.authors}}
-
-              <br>
-              <em>{{post.venue}}</em>, {{ post.date | date: "%Y" }}
-              <br>
-              {% if post.arxiv %}
-              <a href="{{post.arxiv}}">arxiv</a> 
-              {% endif %}
-              {% if post.video %}
-              / <a href="{{post.video}}">video</a> 
-              {% endif %}
-              {% if post.code %}
-              / <a href="{{post.code}}">code</a> 
-              {% endif %}
-              {% if post.poster %}
-              / <a href="{{post.poster}}">poster</a> 
-              {% endif %}
-              {% if post.slides %}
-              / <a href="{{post.slides}}">slides</a> 
-              {% endif %}
-              {% if post.website %}
-              / <a href="{{post.website}}">website</a> 
-              {% endif %}
-              {% if post.youtube %}
-              / <a href="{{post.youtube}}">youtube</a> 
-              {% endif %}
-              <p></p>
-              {{ post.excerpt }}
-            </td>
-          </tr>
-          {% endif %}
-          {% endfor %}
-          {% endfor %}
-        </table>
-        <br>
-        <br>
-        <br>
-
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-          <tr>
-            <td style="padding:0px">
-              <br>
-              <p style="text-align:center;font-size:small;">
-                Design and source code from <a style="font-size:small;" href="https://jonbarron.info">Jon Barron's website</a>
+            {% if post.categories contains 'research' %}
+            <article class="paper">
+              <h3 class="paper-title">{{ post.title }}</h3>
+              <p class="paper-authors">{{ post.authors }}</p>
+              <p class="paper-venue"><em>{{ post.venue }}</em>, {{ post.date | date: "%Y" }}</p>
+              <p class="paper-links">
+                {%- if post.paper -%}<a href="{{ post.paper }}">paper</a>{%- endif -%}
+                {%- if post.pdf -%}{%- if post.paper %} / {% endif -%}<a href="{{ post.pdf }}">pdf</a>{%- endif -%}
+                {%- if post.code -%}{%- if post.paper or post.pdf %} / {% endif -%}<a href="{{ post.code }}">code</a>{%- endif -%}
+                {%- if post.website -%}{%- if post.paper or post.pdf or post.code %} / {% endif -%}<a href="{{ post.website }}">website</a>{%- endif -%}
+                {%- if post.youtube -%}{%- if post.paper or post.pdf or post.code or post.website %} / {% endif -%}<a href="{{ post.youtube }}">youtube</a>{%- endif -%}
               </p>
-            </td>
-          </tr>
-        </table>
-      </td>
-    </tr>
-  </table>
+            </article>
+            {% endif %}
+          {% endfor %}
+        </section>
+
+        <div class="section-divider">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 14" preserveAspectRatio="none" aria-hidden="true">
+            <path d="M0,7 Q240,13 480,7" stroke="#B79492" stroke-opacity="0.6" stroke-width="1" fill="none"/>
+          </svg>
+        </div>
+
+        <section class="section">
+          <h2 class="section-label">Latest posts</h2>
+          <p class="coming-soon"><em>New posts coming soon.</em></p>
+        </section>
+
+      </main>
+    </div>
+  </div>
 </body>
-
 </html>
-

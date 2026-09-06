@@ -7,7 +7,7 @@ categories: research
 author: "Bariscan Kurtkaya"
 authors: "<strong>Bariscan Kurtkaya*</strong>, Fatih Dinc*, Mert Yuksekgonul, Marta Blanco-Pozo, Ege Cirakman, Mark Schnitzer, Yucel Yemez, Hidenori Tanaka, Peng Yuan, Nina Miolane"
 venue: "ICML"
-arxiv: https://arxiv.org/pdf/2502.17433
+pdf: https://arxiv.org/pdf/2502.17433
 website: https://bariscankurtkaya.github.io/dynamical_phases/
 code: https://github.com/fatihdinc/dynamical-phases-stm
 ---
