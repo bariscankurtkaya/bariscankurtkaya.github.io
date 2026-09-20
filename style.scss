@@ -23,6 +23,15 @@ body {
   line-height: 1.7;
 }
 
+.bg-video {
+  position: fixed;
+  top: 50%;
+  left: 55%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+  pointer-events: none;
+}
+
 a {
   color: $accent;
   text-decoration: none;
